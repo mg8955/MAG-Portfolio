@@ -1,6 +1,8 @@
 # MAG React Portfolio
  ## Description
  ---
+ ![image](https://user-images.githubusercontent.com/113604486/206924006-1a87dd9c-d559-4c94-ab36-d6c9d0362e56.png)
+
  This is the second iteration of my professional portfolio built with React.js.
  ## Table of Contents
  [Installation](#installation)  
