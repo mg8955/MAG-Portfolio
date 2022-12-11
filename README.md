@@ -16,7 +16,7 @@
  Use npm install to install dependencies.
  ## Usage
  ---
- View the deployed portfolio @ ...
+ View the deployed portfolio [here](https://mg8955.github.io/MAG-Portfolio/)
  ## License
  ---
  ![](https://img.shields.io/badge/license-MIT-brightgreen) [Click here for more information about the MIT license.](https://choosealicense.com/licenses/mit/)
