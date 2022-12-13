@@ -18,7 +18,7 @@ const about = {
   description2: 
   'My growth-mindset has led me to founding and selling my first startup, solving complex logistics problems for a nationwide cold-chain transportation company, and the pursuit of extreme endurance sports.',
   description3: 'This yearning for growth set me on the path to becoming a Full Stack Developer.',
-  resume: 'https://docs.google.com/document/d/1wVJ99LChMfoArFS4ehJmeGZMUQ5zTMt8U-hhGDndb9U/edit',
+  resume: "https://drive.google.com/file/d/1roG0EXgbC5xCekqMxYa2OguLb1sUJHg3/view?usp=share_link",
   social: {
     linkedin: 'https://www.linkedin.com/in/michael-gostomski/',
     github: 'https://github.com/mg8955',

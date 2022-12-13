@@ -21,11 +21,8 @@ const About = () => {
 
       <div className='about__contact center'>
         {resume && (
-          <a href={resume}>
-            <span type='button' className='btn btn--outline'>
-              Resume
-            </span>
-          </a>
+          <button type="button" className="btn btn--outline" onClick={() => window.open("https://drive.google.com/file/d/1roG0EXgbC5xCekqMxYa2OguLb1sUJHg3/view?usp=share_link")}>Resume</button>
+         
         )}
 
         {social && (
