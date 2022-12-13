@@ -75,7 +75,7 @@ const projects = [
     name: 'Fairweather Cider Co.',
     description:
       'Craft Cidery startup in Austin, TX. Reader\'s and Editor\'s choice for The Austin Beerguide\'s "Best-Not-Brewery" Award in 2019',
-    stack: [' '],
+    stack: ['Co-Founder / Director of Operations'],
     livePreview: 'https://austin.eater.com/2017/11/10/16634608/fairweather-cider-co-austin',
     imgUrl: fwcImg
   },
