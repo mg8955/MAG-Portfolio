@@ -1,3 +1,10 @@
+import ppImg from './assets/images/parkpickerss.png';
+import ntImg from './assets/images/notetakerSS.png';
+import fwcImg from './assets/images/fwcss.jpg';
+import rmImg from './assets/images/readmess.png';
+import spImg from './assets/images/securepasswordgeneratorSS.png';
+import vvImg from './assets/images/VVdatass.png';
+
 const header = {
   homepage: 'https://mg8955.github.io/cleanfolio',
   title: 'MG',
@@ -11,7 +18,7 @@ const about = {
   description2: 
   'My growth-mindset has led me to founding and selling my first startup, solving complex logistics problems for a nationwide cold-chain transportation company, and the pursuit of extreme endurance sports.',
   description3: 'This yearning for growth set me on the path to becoming a Full Stack Developer.',
-  resume: 'https://example.com',
+  resume: 'https://docs.google.com/document/d/1wVJ99LChMfoArFS4ehJmeGZMUQ5zTMt8U-hhGDndb9U/edit',
   social: {
     linkedin: 'https://www.linkedin.com/in/michael-gostomski/',
     github: 'https://github.com/mg8955',
@@ -24,16 +31,18 @@ const projects = [
     description:
       'An app for users to find a National Park to visit based on their outdoor activity of choice.',
     stack: [ 'JavaScript', 'React', 'GraphQL', 'Express', 'Node', 'MongoDB', 'CSS'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://chewy441014.github.io/trail-picker/',
+    sourceCode: 'https://github.com/chewy441014/park-picker',
+    livePreview: 'https://park-picker-react.herokuapp.com/home',
+    imgUrl: ppImg
   },
   {
     name: 'Note Taker',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'A note-taker app built with Express.js. Add, save, and delete notes to keep yourself organized.',
     stack: ['Express.js', 'Node.js', 'JavaScript'],
     sourceCode: 'https://github.com/mg8955/Express.js-Note-Taker',
     livePreview: 'https://express-note-taker-mag.herokuapp.com/',
+    imgUrl: ntImg
   },
   {
     name: 'README Generator',
@@ -42,6 +51,7 @@ const projects = [
     stack: ['JavaScript', 'Node.js', 'Inquirer'],
     sourceCode: 'https://github.com/mg8955/README-Generator',
     livePreview: 'https://github.com/mg8955/README-Generator',
+    imgUrl: rmImg
   },
   {
     name: 'Secure Password Generator',
@@ -50,14 +60,16 @@ const projects = [
     stack: ['JavaScript', 'CSS3', 'HTML5'],
     sourceCode: 'https://github.com/mg8955/Secure-Password-Generator',
     livePreview: 'https://mg8955.github.io/Secure-Password-Generator/',
+    imgUrl: spImg
   },
   {
     name: 'Delivery Data Analysis and Visualization',
     description:
-      'Coming Soon! I implemented the collection of daily delivery data for 2021 and 2022 and created visualizations of weekly, monthly and annual statistics.',
+      'I implemented the collection of daily delivery data for 2021 and 2022 and created visualizations of weekly, monthly and annual statistics.',
     stack: ['Google Sheets / Excel'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    imgUrl: vvImg
   },
   {
     name: 'Fairweather Cider Co.',
@@ -65,6 +77,7 @@ const projects = [
       'Craft Cidery startup in Austin, TX. Reader\'s and Editor\'s choice for The Austin Beerguide\'s "Best-Not-Brewery" Award in 2019',
     stack: [' '],
     livePreview: 'https://austin.eater.com/2017/11/10/16634608/fairweather-cider-co-austin',
+    imgUrl: fwcImg
   },
 ]
 
@@ -84,6 +97,12 @@ const skills = [
   'CSS',
 ]
 
+const studyingFor = [
+  'Python',
+  'AWS Cloud Practicioner',
+  'COMPTIA Security+',
+]
+
 const contact = {
   email: 'michael@gostomski.net',
 }
@@ -99,4 +118,4 @@ const quotes = [
   return quotes[(Math.floor(Math.random() * quotes.length))];
 }
 
-export { header, about, projects, skills, contact, footerQuote }
+export { header, about, projects, skills, contact, studyingFor, footerQuote }
