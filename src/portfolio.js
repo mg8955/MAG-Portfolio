@@ -5,6 +5,15 @@ import rmImg from './assets/images/readmess.png';
 import spImg from './assets/images/securepasswordgeneratorSS.png';
 import vvImg from './assets/images/VVdatass.png';
 
+const docTitle = document.title;
+const altTitles = ['Come back!', 'Done so soon?', 'Take another look!', 'Hired? ;)']
+window.addEventListener('blur', () => {
+  document.title = altTitles[(Math.floor(Math.random() * altTitles.length))]
+});
+window.addEventListener('focus', () => {
+  document.title = docTitle;
+});
+
 const header = {
   homepage: 'https://mg8955.github.io/cleanfolio',
   title: 'MG',
@@ -12,7 +21,7 @@ const header = {
 
 const about = {
   name: 'Michael Gostomski',
-  role: 'Servant Leader, Adventure Seeker, and Full Stack Developer',
+  role: 'Full Stack Developer and Adventure Seeker',
   description:
     'I am always looking for a challenge that tests my abilities and pushes my limits. I take pride in building and leading exceptional and diverse teams. At the end of the day, it is all about better serving my clients.',
   description2: 
@@ -65,8 +74,8 @@ const projects = [
   {
     name: 'Delivery Data Analysis and Visualization',
     description:
-      'I implemented the collection of daily delivery data for 2021 and 2022 and created visualizations of weekly, monthly and annual statistics.',
-    stack: ['Google Sheets / Excel'],
+      'I implemented the collection of daily delivery data for 2021 and 2022 and created visualizations of weekly, monthly and annual metrics.',
+    stack: ['Google Sheets & Charts / Excel'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
     imgUrl: vvImg
@@ -100,11 +109,11 @@ const skills = [
 const studyingFor = [
   'Python',
   'AWS Cloud Practicioner',
-  'COMPTIA Security+',
+  'Java',
 ]
 
 const contact = {
-  email: 'michael@gostomski.net',
+  email: 'gostomski.m@gmail.com',
 }
 
 const footerQuote = () => {
