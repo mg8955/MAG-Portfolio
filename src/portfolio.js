@@ -21,7 +21,7 @@ const header = {
 
 const about = {
   name: 'Michael Gostomski',
-  role: 'Full Stack Developer | Entrepreneur | Adventure Seeker',
+  role: 'Full Stack Developer ○ Entrepreneur ○ Adventure Seeker',
   description:
     'I am always looking for a challenge that tests my abilities and pushes my limits. I take pride in building and leading exceptional and diverse teams. At the end of the day, it is all about better serving my clients.',
   description2: 
@@ -39,7 +39,7 @@ const projects = [
     name: 'Park Picker',
     description:
       'An app for users to find a National Park to visit based on their outdoor activity of choice.',
-    stack: [ 'JavaScript', 'React', 'GraphQL', 'Express', 'Node', 'MongoDB', 'CSS'],
+    stack: [ 'JavaScript', 'React', 'GraphQL', 'Express', 'Node.js', 'MongoDB', 'CSS'],
     sourceCode: 'https://github.com/chewy441014/park-picker',
     livePreview: 'https://park-picker-react.herokuapp.com/home',
     imgUrl: ppImg
