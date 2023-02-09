@@ -21,7 +21,7 @@ const header = {
 
 const about = {
   name: 'Michael Gostomski',
-  role: 'Full Stack Developer and Adventure Seeker',
+  role: 'Full Stack Developer | Entrepreneur | Adventure Seeker',
   description:
     'I am always looking for a challenge that tests my abilities and pushes my limits. I take pride in building and leading exceptional and diverse teams. At the end of the day, it is all about better serving my clients.',
   description2: 
