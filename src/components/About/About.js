@@ -22,7 +22,7 @@ const About = () => {
     
       <div className='about__contact center'>
         {resume && (
-          <button type="button" className="btn btn--outline" onClick={() => window.open("https://drive.google.com/file/d/1nYsjuH010izA3EDJj-jwui7KbN9TNsJp/view?usp=share_link")}>Resume</button>
+          <button type="button" className="btn btn--outline" onClick={() => window.open("https://drive.google.com/file/d/1EPPKa366t2hVqBYOEy-MfexX4Ks0wTST/view?usp=share_link")}>Resume</button>
          
         )}
 
